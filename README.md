@@ -1,2 +1,2 @@
-# cassabella
-Cass-A-Bella Construction website. Built with Gatsby, React and Bootstrap.
+# Cass-A-Bella Construction
+Built with Gatsby, React and Bootstrap.
