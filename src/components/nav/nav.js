@@ -33,6 +33,8 @@ class MainNav extends React.Component {
   render() {
     const navLinks = {
       linkOneText: "Home",
+      linkServices: "/services",
+      linkServicesText: "Services",
       linkTwo: "/home-renovation",
       linkTwoText: "Home Renovation",
       linkThree: "/home-additions",
@@ -63,9 +65,16 @@ class MainNav extends React.Component {
                 </NavItem>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav caret>
-                    Services
+                    {navLinks.linkServicesText}
                   </DropdownToggle>
                   <DropdownMenu right>
+                    <DropdownItem>
+                      <NavItem>
+                        <NavLink href={navLinks.linkServices}>
+                          {navLinks.linkServicesText}
+                        </NavLink>
+                      </NavItem>
+                    </DropdownItem>
                     <DropdownItem>
                       <NavItem>
                         <NavLink href={navLinks.linkTwo}>

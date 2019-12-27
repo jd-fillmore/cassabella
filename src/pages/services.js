@@ -4,12 +4,12 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Nav from "../components/nav/nav"
 
-const HomeAdditions = () => (
+const Services = () => (
   <Layout>
-    <SEO title="Home Additions" />
+    <SEO title="Services" />
     <Nav />
-    <h1>Home Additions</h1>
+    <h1>Services</h1>
   </Layout>
 )
 
-export default HomeAdditions
+export default Services
