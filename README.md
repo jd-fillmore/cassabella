@@ -1,7 +1,7 @@
-<h1>MC Aesthetics</h1>
+<h1>Cass-A-Bella Construction</h1>
 
 Built with React, Gatsby, JavaScript, HTML5, CSS3, Bootstrap 4, NPM.
 
-Showcase: https://jdfill.me/mc-aesthetics
+Showcase: (coming soon)
 
-Direct link: https://mcaesthetics.ca
+Direct link: (coming soon)
