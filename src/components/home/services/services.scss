@@ -5,6 +5,9 @@
 #services {
   background: $grey;
   padding: 180px 0px 180px 0px;
+  h2 {
+    color: $heading;
+  }
   p {
     &.subtitle {
       margin-bottom: 80px;

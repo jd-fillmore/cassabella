@@ -2,6 +2,7 @@ import React from "react"
 import { Container, Row, Col } from "reactstrap"
 
 import "../../../../node_modules/react-image-gallery/styles/css/image-gallery.css"
+import "../featured/featured.scss"
 
 import ImageGallery from "react-image-gallery"
 import image1 from "../../../images/pic.jpg"
@@ -26,26 +27,28 @@ const images = [
 const FeaturedHome = () => {
   return (
     <div>
-      <Container>
-        <Row>
-          <Col lg="12">
-            <ImageGallery items={images} />
-          </Col>
-        </Row>
-      </Container>
-      <Container>
-        <Row>
-          <Col lg="5">
-            <FeaturedDescription title="Woodville Ave, Toronto" />
-          </Col>
-          <Col lg="7">
-            <FeaturedOther
-              title="Other projects in Etobicoke, Mississauga &amp; Toronto"
-              buttonText="View All"
-            />
-          </Col>
-        </Row>
-      </Container>
+      <section id="featured">
+        <Container>
+          <Row>
+            <Col lg="12">
+              <ImageGallery className="image-gallery" items={images} />
+            </Col>
+          </Row>
+        </Container>
+        <Container>
+          <Row>
+            <Col lg="5">
+              <FeaturedDescription title="Woodville Ave, Toronto" />
+            </Col>
+            <Col lg="7">
+              <FeaturedOther
+                title="Other projects in Etobicoke, Mississauga &amp; Toronto"
+                buttonText="View All"
+              />
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </div>
   )
 }
