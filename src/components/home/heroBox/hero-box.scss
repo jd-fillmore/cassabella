@@ -5,6 +5,9 @@
 #hero-box {
   border: 2px solid $primary;
   padding: 40px;
+  @include bp-tablet-sm {
+    margin-top: 0px;
+  }
   h1,
   h2,
   p {

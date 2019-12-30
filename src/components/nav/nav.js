@@ -49,7 +49,8 @@ class MainNav extends React.Component {
       linkEight: "/contact",
       linkEightText: "Contact",
       projectsLinkText: "Projects",
-      projectOneText: "Project 1",
+      projectOneText: "Woodville Ave, Toronto",
+      projectOneLink: "/woodville-ave-toronto",
       projectTwoText: "Project 2",
       projectThreeText: "Project 3",
     }
@@ -121,7 +122,7 @@ class MainNav extends React.Component {
                 <DropdownMenu right>
                   <DropdownItem>
                     <NavItem>
-                      <NavLink href={navLinks.linkTwo}>
+                      <NavLink href={navLinks.projectOneLink}>
                         {navLinks.projectOneText}
                       </NavLink>
                     </NavItem>

@@ -1,10 +1,20 @@
 // Nav
 @import "../variables.scss";
+@import "../breakpoints.scss";
 
 .navbar {
   margin-top: 20px;
+  @include bp-tablet-sm {
+    margin-top: 0px;
+  }
   button {
     padding: 0px !important;
+  }
+}
+
+.navbar-nav {
+  @include bp-tablet-sm {
+    margin-top: 20px;
   }
 }
 
@@ -17,6 +27,9 @@
   &:focus,
   &:hover {
     color: $primary !important;
+  }
+  @include bp-tablet-sm {
+    color: $body !important;
   }
 }
 
@@ -35,6 +48,12 @@
 .dropdown-menu {
   border-radius: 0 !important;
   padding: 0 !important;
+<<<<<<< HEAD
+=======
+  @include bp-tablet-sm {
+    padding: 10px !important;
+  }
+>>>>>>> development
   .dropdown-item {
     &:focus,
     &:hover {
@@ -43,6 +62,12 @@
   }
   .nav-link {
     color: $body !important;
+<<<<<<< HEAD
+=======
+    @include bp-tablet-sm {
+      padding: 5px !important;
+    }
+>>>>>>> development
     &:focus,
     &:hover {
       color: $white !important;

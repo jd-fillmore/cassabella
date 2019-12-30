@@ -1,0 +1,15 @@
+// Cta
+@import "../variables.scss";
+@import "../breakpoints.scss";
+
+#cta {
+  background: $dark-blue;
+  padding: 80px 0px 80px 0px;
+  @include bp-tablet-sm {
+    padding: 40px 0px 40px 0px;
+  }
+  h2 {
+    color: $white;
+    margin-bottom: 20px;
+  }
+}

@@ -1,16 +1,13 @@
-// Services
+// About
 @import "../../variables.scss";
 @import "../../breakpoints.scss";
 
-#services {
+#about {
   background: $grey;
   padding: 180px 0px 180px 0px;
-<<<<<<< HEAD
-=======
   @include bp-tablet-sm {
     padding: 40px 0px 40px 0px;
   }
->>>>>>> development
   h2 {
     color: $heading;
   }
@@ -22,10 +19,9 @@
       }
     }
   }
-  button {
-    margin-top: 80px;
+  img {
     @include bp-tablet-sm {
-      margin-top: 20px;
+      margin-bottom: 30px;
     }
   }
 }

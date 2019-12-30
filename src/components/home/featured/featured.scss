@@ -10,4 +10,24 @@
   .image-gallery {
     margin-bottom: 80px;
   }
+<<<<<<< HEAD
+=======
+  h2,
+  h3 {
+    color: $secondary;
+  }
+  h2,
+  h3,
+  ul {
+    margin-bottom: 30px;
+    @include bp-tablet-sm {
+      margin-bottom: 10px;
+    }
+  }
+  h3 {
+    @include bp-tablet-sm {
+      margin-top: 30px;
+    }
+  }
+>>>>>>> development
 }

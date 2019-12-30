@@ -3,6 +3,8 @@ import { Container, Row, Col } from "reactstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 
+import "../footer/footer.scss"
+
 const Footer = () => {
   return (
     <div>
@@ -10,7 +12,7 @@ const Footer = () => {
         <Container>
           <Row>
             <Col lg="6">
-              <div className="flex">
+              <div className="d-flex">
                 <a
                   href="/"
                   target="_blank"
@@ -32,7 +34,7 @@ const Footer = () => {
                     target="_blank"
                     href="https://infused.agency"
                   >
-                    Infused Agency
+                    &nbsp;Infused Agency
                   </a>
                 </p>
               </div>
