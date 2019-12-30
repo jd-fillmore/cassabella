@@ -48,12 +48,9 @@
 .dropdown-menu {
   border-radius: 0 !important;
   padding: 0 !important;
-<<<<<<< HEAD
-=======
   @include bp-tablet-sm {
     padding: 10px !important;
   }
->>>>>>> development
   .dropdown-item {
     &:focus,
     &:hover {
@@ -62,12 +59,9 @@
   }
   .nav-link {
     color: $body !important;
-<<<<<<< HEAD
-=======
     @include bp-tablet-sm {
       padding: 5px !important;
     }
->>>>>>> development
     &:focus,
     &:hover {
       color: $white !important;

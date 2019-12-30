@@ -3,10 +3,7 @@ import { Container, Row, Col } from "reactstrap"
 
 import "../../../../node_modules/react-image-gallery/styles/css/image-gallery.css"
 import "../featured/featured.scss"
-<<<<<<< HEAD
-=======
 import "../../imageGallery/image-gallery.scss"
->>>>>>> development
 
 import ImageGallery from "react-image-gallery"
 import image1 from "../../../images/pic.jpg"
@@ -37,13 +34,9 @@ const FeaturedHome = () => {
         <Container>
           <Row>
             <Col lg="12">
-<<<<<<< HEAD
-              <ImageGallery className="image-gallery" items={images} />
-=======
               <div data-aos="fade-in">
                 <ImageGallery className="image-gallery" items={images} />
               </div>
->>>>>>> development
             </Col>
           </Row>
         </Container>

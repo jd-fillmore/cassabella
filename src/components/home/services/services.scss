@@ -5,12 +5,9 @@
 #services {
   background: $grey;
   padding: 180px 0px 180px 0px;
-<<<<<<< HEAD
-=======
   @include bp-tablet-sm {
     padding: 40px 0px 40px 0px;
   }
->>>>>>> development
   h2 {
     color: $heading;
   }

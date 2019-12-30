@@ -9,16 +9,11 @@ button {
   letter-spacing: 1.6px;
   padding: 15px 40px 15px 40px !important;
   border-radius: 0 !important;
-<<<<<<< HEAD
-=======
   border: none !important;
->>>>>>> development
   transition: 0.2s;
   &:focus,
   &:hover {
     background-color: $secondary;
-<<<<<<< HEAD
-=======
     transform: translate3D(0, -3px, 0);
   }
   &.secondary {
@@ -31,7 +26,6 @@ button {
       color: $white;
       border: 3px solid $primary !important;
     }
->>>>>>> development
   }
   &.tertiary {
     background-color: $tertiary;
