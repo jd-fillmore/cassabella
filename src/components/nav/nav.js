@@ -1,7 +1,6 @@
 import React from "react"
-import logo from "../../images/logo.jpg"
+import logo from "../../images/logo.png"
 import {
-  Container,
   Collapse,
   Navbar,
   NavbarToggler,
@@ -14,7 +13,7 @@ import {
   DropdownMenu,
   DropdownItem,
 } from "reactstrap"
-// import "../main-nav/main-nav.scss"
+import "../nav/nav.scss"
 
 class MainNav extends React.Component {
   constructor(props) {
@@ -52,10 +51,10 @@ class MainNav extends React.Component {
     }
     return (
       <div className="sticky-top">
-        <Container>
+        <div className="container-fluid">
           <Navbar light expand="lg">
             <NavbarBrand href="/">
-              <img src={logo} alt="MC Aesthetics" />
+              <img src={logo} alt="Cass-A-Bella Construction" />
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
@@ -151,7 +150,7 @@ class MainNav extends React.Component {
               </Nav>
             </Collapse>
           </Navbar>
-        </Container>
+        </div>
       </div>
     )
   }

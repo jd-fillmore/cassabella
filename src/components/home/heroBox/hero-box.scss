@@ -1,0 +1,27 @@
+// Hero Box
+@import "../../variables.scss";
+
+#hero-box {
+  h1,
+  h2,
+  p {
+    color: $white;
+  }
+  h1 {
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 60px;
+  }
+  button {
+    background-color: $tertiary;
+    color: $body;
+    &:focus,
+    &:hover {
+      background-color: $primary;
+      color: $white;
+    }
+  }
+}
