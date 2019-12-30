@@ -1,0 +1,42 @@
+// Hero Box
+@import "../../variables.scss";
+@import "../../breakpoints.scss";
+
+#hero-box {
+  border: 2px solid $primary;
+  padding: 40px;
+  h1,
+  h2,
+  p {
+    color: $white;
+  }
+  h1 {
+    font-size: 13px;
+    font-family: $mont;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    @include bp-tablet-sm {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    @include bp-tablet-sm {
+      font-size: 32px;
+    }
+  }
+  button {
+    background-color: $tertiary;
+    color: $body;
+    margin-top: 15px;
+    &:focus,
+    &:hover {
+      background-color: $primary;
+      color: $white;
+    }
+  }
+}
