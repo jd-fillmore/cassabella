@@ -1,0 +1,13 @@
+// Featured
+@import "../../breakpoints.scss";
+@import "../../variables.scss";
+
+#featured {
+  padding: 180px 0px 180px 0px;
+  @include bp-tablet-sm {
+    padding: 40px 0px 40px 0px;
+  }
+  .image-gallery {
+    margin-bottom: 80px;
+  }
+}

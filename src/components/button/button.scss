@@ -1,0 +1,27 @@
+// Button
+@import "../variables.scss";
+
+button {
+  background-color: $primary;
+  color: $white;
+  font-size: 14px !important;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  padding: 15px 40px 15px 40px !important;
+  border-radius: 0 !important;
+  transition: 0.2s;
+  &:focus,
+  &:hover {
+    background-color: $secondary;
+  }
+  &.tertiary {
+    background-color: $tertiary;
+    color: $body;
+    margin-top: 15px;
+    &:focus,
+    &:hover {
+      background-color: $primary;
+      color: $white;
+    }
+  }
+}

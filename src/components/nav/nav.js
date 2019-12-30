@@ -54,7 +54,7 @@ class MainNav extends React.Component {
       projectThreeText: "Project 3",
     }
     return (
-      <div className="container-fluid">
+      <div className="container-fluid" data-aos="fade-in">
         <Navbar light expand="lg">
           <NavbarBrand href="/">
             <img src={logo} alt="Cass-A-Bella Construction" />

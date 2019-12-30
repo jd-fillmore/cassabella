@@ -29,14 +29,4 @@
       font-size: 32px;
     }
   }
-  button {
-    background-color: $tertiary;
-    color: $body;
-    margin-top: 15px;
-    &:focus,
-    &:hover {
-      background-color: $primary;
-      color: $white;
-    }
-  }
 }
