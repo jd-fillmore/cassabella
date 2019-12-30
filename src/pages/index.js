@@ -2,7 +2,7 @@ import React, { Component } from "react"
 
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../components/typography.scss"
-import "../components/button.scss"
+import "../components/general.scss"
 import AOS from "aos"
 import "../../node_modules/aos/dist/aos.css"
 

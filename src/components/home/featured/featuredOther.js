@@ -1,13 +1,15 @@
 import React from "react"
-import { Button } from "reactstrap"
+import Button from "../../button/button"
 import { Link } from "gatsby"
 
 const FeaturedOther = props => {
   return (
-    <div>
-      <h2>{props.title}</h2>
+    <div data-aos="fade-right" data-aos-delay="400">
+      <h3>{props.title}</h3>
       <Link to="/projects">
-        <Button aria-label="View All">{props.buttonText}</Button>
+        <Button className="secondary" aria-label="View All">
+          {props.buttonText}
+        </Button>
       </Link>
     </div>
   )

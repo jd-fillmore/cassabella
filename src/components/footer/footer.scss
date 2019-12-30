@@ -1,0 +1,20 @@
+// Footer
+@import "../variables.scss";
+@import "../breakpoints.scss";
+
+footer {
+  padding: 40px 0px 40px 0px;
+  .d-flex {
+    justify-content: space-around;
+    @include bp-tablet-sm {
+      justify-content: space-between;
+    }
+  }
+  .flex-two {
+    display: flex;
+    justify-content: flex-end;
+    @include bp-tablet-sm {
+      display: block;
+    }
+  }
+}
