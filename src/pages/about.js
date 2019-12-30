@@ -5,12 +5,12 @@ import SEO from "../components/seo"
 import Nav from "../components/nav/nav"
 import InnerHero from "../components/inner/innerHero"
 
-const Contact = () => (
+const About = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="About" />
     <Nav />
-    <InnerHero title="Contact" />
+    <InnerHero title="About" />
   </Layout>
 )
 
-export default Contact
+export default About

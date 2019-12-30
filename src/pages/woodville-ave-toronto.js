@@ -1,16 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Nav from "../components/nav/nav"
+import InnerHero from "../components/inner/innerHero"
 
-const HomeRenovation = () => (
+const WoodvilleAveToronto = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <SEO title="Woodville Ave Toronto" />
+    <Nav />
+    <InnerHero title="Woodville Ave, Toronto" />
   </Layout>
 )
 
-export default HomeRenovation
+export default WoodvilleAveToronto

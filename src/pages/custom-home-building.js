@@ -3,13 +3,14 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Nav from "../components/nav/nav"
+import InnerHero from "../components/inner/innerHero"
 
-const HomeRenovation = () => (
+const CustomHomeBuilding = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Custom Home Building" />
     <Nav />
-    <h1>Custom Home Building</h1>
+    <InnerHero title="Custom Home Building" />
   </Layout>
 )
 
-export default HomeRenovation
+export default CustomHomeBuilding
