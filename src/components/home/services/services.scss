@@ -1,0 +1,16 @@
+// Services
+@import "../../variables.scss";
+@import "../../breakpoints.scss";
+
+#services {
+  background: $grey;
+  padding: 180px 0px 180px 0px;
+  p {
+    &.subtitle {
+      margin-bottom: 80px;
+    }
+  }
+  button {
+    margin-top: 80px;
+  }
+}

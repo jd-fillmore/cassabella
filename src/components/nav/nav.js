@@ -111,11 +111,6 @@ class MainNav extends React.Component {
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
-                <NavItem>
-                  <NavLink href={navLinks.linkSeven}>
-                    {navLinks.linkSevenText}
-                  </NavLink>
-                </NavItem>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav caret>
                     {navLinks.projectsLinkText}
