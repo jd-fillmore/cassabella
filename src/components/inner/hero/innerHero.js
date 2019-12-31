@@ -1,8 +1,8 @@
 import React from "react"
-import InnerHeroBox from "../inner/innerHeroBox"
+import InnerHeroBox from "../hero/innerHeroBox"
 import { Container, Row, Col } from "reactstrap"
 
-import "../inner/inner-hero.scss"
+import "../hero/inner-hero.scss"
 
 const InnerHero = props => {
   return (

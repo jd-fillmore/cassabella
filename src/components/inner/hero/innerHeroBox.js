@@ -1,6 +1,6 @@
 import React from "react"
 
-import "../inner/inner-hero-box.scss"
+import "../hero/inner-hero-box.scss"
 
 const InnerHeroBox = props => {
   return (

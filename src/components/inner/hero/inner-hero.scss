@@ -1,9 +1,9 @@
 // Inner Hero
-@import "../breakpoints.scss";
-@import "../variables.scss";
+@import "../../breakpoints.scss";
+@import "../../variables.scss";
 
 #inner-hero {
-  background: url("../../images/inner-hero-bg.jpg") center center no-repeat;
+  background: url("../../../images/inner-hero-bg.jpg") center center no-repeat;
   background-attachment: fixed;
   background-size: cover;
   padding: 180px 0px 150px 0px;
