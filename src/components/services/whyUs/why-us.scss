@@ -1,0 +1,11 @@
+// Why Us
+@import "../../variables.scss";
+
+#why-us {
+  border: 2px solid $primary;
+  padding: 30px;
+  margin-top: 30px;
+  ul {
+    margin-bottom: 0px;
+  }
+}
