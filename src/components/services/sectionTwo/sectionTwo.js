@@ -4,7 +4,6 @@ import { Container, Row, Col } from "reactstrap"
 import "../sectionTwo/section-two.scss"
 
 import CallOut from "../../callOut/callOut"
-import btmImage from "../../../images/home-renovation/home-reno2.jpg"
 
 const SectionTwo = props => {
   return (
@@ -19,10 +18,10 @@ const SectionTwo = props => {
             </Col>
             <Col lg={{ size: 5, offset: 1 }}>
               <CallOut
-                text="Excellent Workmanship"
-                subText="We create a home that is safe and custom designed to meet your style and requirements"
-                image={btmImage}
-                alt="excellent workmanship"
+                text={props.callOutText}
+                subText={props.callOutSubText}
+                image={props.callOutBtmImage}
+                alt={props.callOutBtmImageAlt}
               />
             </Col>
           </Row>
