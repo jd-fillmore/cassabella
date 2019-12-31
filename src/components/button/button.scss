@@ -2,7 +2,7 @@
 @import "../variables.scss";
 
 button {
-  background-color: $primary;
+  background-color: #064063;
   color: $white;
   font-size: 14px !important;
   text-transform: uppercase;
@@ -25,16 +25,6 @@ button {
       background-color: $primary;
       color: $white;
       border: 3px solid $primary !important;
-    }
-  }
-  &.tertiary {
-    background-color: $tertiary;
-    color: $body;
-    margin-top: 15px;
-    &:focus,
-    &:hover {
-      background-color: $primary;
-      color: $white;
     }
   }
 }

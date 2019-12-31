@@ -30,6 +30,7 @@ class IndexPage extends Component {
           <About
             title="About Cass-A-Bella Construction"
             subtitle="For all your home renovation, addition or building needs, turn to the professionals at Cass-A-Bella Construction."
+            alt="White House"
           />
           <CTA />
           <Footer />

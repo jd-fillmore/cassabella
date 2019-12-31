@@ -19,9 +19,7 @@ const HeroBox = props => {
         </p>
         <Link to={props.link}>
           <div data-aos="fade-right" data-aos-delay="900">
-            <Button className="tertiary" aria-label="button">
-              {props.linkText}
-            </Button>
+            <Button aria-label="button">{props.linkText}</Button>
           </div>
         </Link>
       </section>

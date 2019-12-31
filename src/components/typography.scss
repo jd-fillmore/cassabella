@@ -45,7 +45,7 @@ ul {
 
 a {
   transition: 0.2s;
-
+  color: $secondary;
   letter-spacing: 1px;
   &:focus,
   &:hover {
