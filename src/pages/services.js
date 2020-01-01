@@ -13,6 +13,7 @@ import imageTwo from "../images/custom-second-floor-additions-misssauga.jpg"
 import imageThree from "../images/custom-rear-home-additions-etobicoke.jpg"
 import imageFour from "../images/custom-home-renovation.jpg"
 import imageFive from "../images/custom-home-building.jpg"
+import ServicesProvided from "../components/services/servicesProvided/servicesProvided"
 import CTA from "../components/footer/cta"
 import Footer from "../components/footer/footer"
 
@@ -83,6 +84,7 @@ const Services = () => (
           </Col>
         </Row>
       </Container>
+      <ServicesProvided />
     </section>
     <CTA />
     <Footer />
