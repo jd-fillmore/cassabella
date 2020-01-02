@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Cass-A-Bella Construction`,
+    description: `We're the best custom home renovation company in Mississauga, Etobicoke and Toronto. If you'd like a free quote, click here now!`,
     author: `@gatsbyjs`,
   },
   plugins: [
