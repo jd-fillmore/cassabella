@@ -1,18 +1,19 @@
-// Section One
+// Section Two
 @import "../../variables.scss";
 @import "../../breakpoints.scss";
 
 .about {
-  #section-one {
-    padding-bottom: 120px;
+  #section-two {
+    background: $grey;
+    padding: 120px 0px 120px 0px;
     @include bp-tablet-sm {
-      padding-bottom: 60px;
+      padding: 60px 0px 120px 0px;
     }
     .row {
       align-items: center;
       .call-out {
         @include bp-tablet-sm {
-          margin-bottom: 30px;
+          margin-top: 20px;
         }
       }
     }
