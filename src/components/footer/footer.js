@@ -1,7 +1,7 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faInstagram } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook } from "@fortawesome/free-brands-svg-icons"
 
 import "../footer/footer.scss"
 
@@ -14,12 +14,12 @@ const Footer = () => {
             <Col lg="6">
               <div className="d-flex">
                 <a
-                  href="/"
+                  href="https://www.facebook.com/Cass-A-Bella-Construction-146591322568396/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
                 >
-                  <FontAwesomeIcon icon={faInstagram} />
+                  <FontAwesomeIcon icon={faFacebook} />
                 </a>
                 <p>cass-a-bella-construction.com</p>
                 <a href="tel:(416) 241 - 3471">(416) 241 - 3471</a>
@@ -28,7 +28,7 @@ const Footer = () => {
             <Col lg="6">
               <div className="flex-two">
                 <p>
-                  Web design, development &amp; SEO by
+                  Powered by
                   <a
                     rel="noopener noreferrer"
                     target="_blank"
