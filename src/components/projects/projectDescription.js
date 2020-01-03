@@ -1,64 +1,40 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
+import { Link } from "gatsby"
+import Button from "../button/button"
 import ImageGallery from "react-image-gallery"
-import image1 from "../../images/projects/woodville/1.jpg"
-import image2 from "../../images/projects/woodville/2.jpg"
-import image3 from "../../images/projects/woodville/3.jpg"
-import image4 from "../../images/projects/woodville/4.jpg"
-import image5 from "../../images/projects/woodville/5.jpg"
-import image6 from "../../images/projects/woodville/6.jpg"
+
+import "../projects/project-description.scss"
 
 const ProjectDescription = props => {
   const projectItems = props.projectItems
-  const images = [
-    {
-      original: image1,
-      thumbnail: image1,
-    },
-    {
-      original: image2,
-      thumbnail: image2,
-    },
-    {
-      original: image3,
-      thumbnail: image3,
-    },
-    {
-      original: image4,
-      thumbnail: image4,
-    },
-    {
-      original: image5,
-      thumbnail: image5,
-    },
-    {
-      original: image6,
-      thumbnail: image6,
-    },
-  ]
+
   return (
     <div>
-      <section id="project-area">
-        <Container>
-          <Row>
-            <Col lg="12">
-              <ImageGallery items={images} />
-            </Col>
-          </Row>
+      <Container>
+        <Row>
+          <Col lg="12">
+            <ImageGallery items={props.images} />
+          </Col>
+        </Row>
+        <section id="project-area">
           <Row>
             <Col lg="6">
               <h2>{props.projectTitle}</h2>
-            </Col>
-            <Col lg="6">
               <ul>
                 {projectItems.map(items => (
                   <li>{items}</li>
                 ))}
               </ul>
             </Col>
+            <Col lg="6">
+              <Link to="/projects">
+                <Button className="secondary">View More Projects</Button>
+              </Link>
+            </Col>
           </Row>
-        </Container>
-      </section>
+        </section>
+      </Container>
     </div>
   )
 }

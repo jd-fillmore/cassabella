@@ -1,0 +1,14 @@
+// Project Description
+@import "../variables.scss";
+@import "../breakpoints.scss";
+
+#project-area {
+  margin-top: 60px;
+  @include bp-tablet-sm {
+    margin-top: 30px;
+  }
+  h2 {
+    color: $secondary;
+    margin-bottom: 30px;
+  }
+}
