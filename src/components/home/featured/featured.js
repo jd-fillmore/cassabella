@@ -5,7 +5,7 @@ import "../../../../node_modules/react-image-gallery/styles/css/image-gallery.cs
 import "../featured/featured.scss"
 import "../../imageGallery/image-gallery.scss"
 
-import image from "../../../images/pic.jpg"
+import image from "../../../images/projects/nesbit/1.jpg"
 import FeaturedDescription from "../featured/featuredDescription"
 import FeaturedOther from "../featured/featuredOther"
 
@@ -28,7 +28,7 @@ const FeaturedHome = () => {
         <Container>
           <Row>
             <Col lg="5">
-              <FeaturedDescription title="Woodville Ave, Toronto" />
+              <FeaturedDescription title="Nesbit Drive" />
             </Col>
             <Col lg="7">
               <FeaturedOther
