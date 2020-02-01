@@ -1,0 +1,8 @@
+// Inner Hero Box
+@import "../../breakpoints.scss";
+@import "../../variables.scss";
+
+#box {
+  border: 2px solid $primary;
+  padding: 40px;
+}

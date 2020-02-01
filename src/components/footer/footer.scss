@@ -8,6 +8,10 @@ footer {
     justify-content: space-around;
     @include bp-tablet-sm {
       justify-content: space-between;
+      display: block !important;
+      svg {
+        margin-right: 10px;
+      }
     }
   }
   .flex-two {

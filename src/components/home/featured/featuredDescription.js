@@ -4,11 +4,13 @@ import { Link } from "gatsby"
 
 const FeaturedDescription = props => {
   const descriptionBullets = [
-    "New second floor addition",
-    "Full gut out on existing floor",
-    "Raised first floor to 9 ft",
-    "New kitchen",
-    "New stone work",
+    "New Home",
+    "Two car tendon garage with access to main house",
+    "Large kitchen area with full glass wall in the back of the house looking to ravine backyard",
+    "Open raised stair case with glass railings",
+    "10 ft ceiling main floor",
+    "9 ft second floor",
+    "And more..",
   ]
   return (
     <div data-aos="fade-right" data-aos-delay="200">
@@ -18,7 +20,7 @@ const FeaturedDescription = props => {
           <li>{bullets}</li>
         ))}
       </ul>
-      <Link to="/woodville-ave-toronto">
+      <Link to="/nesbit-drive">
         <Button>View Project</Button>
       </Link>
     </div>

@@ -1,0 +1,20 @@
+// Section One
+@import "../../variables.scss";
+@import "../../breakpoints.scss";
+
+.services {
+  #section-one {
+    padding-bottom: 120px;
+    @include bp-tablet-sm {
+      padding-bottom: 60px;
+    }
+    .row {
+      align-items: center;
+      .call-out {
+        @include bp-tablet-sm {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}

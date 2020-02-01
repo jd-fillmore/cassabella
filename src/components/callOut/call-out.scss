@@ -1,0 +1,17 @@
+// Callout
+@import "../variables.scss";
+
+.call-out {
+  background: $dark-blue;
+  padding: 40px;
+  h2,
+  p {
+    color: $white;
+  }
+  hr {
+    border-top: 1px solid $primary;
+  }
+  img {
+    margin-top: 10px;
+  }
+}

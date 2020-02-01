@@ -1,0 +1,21 @@
+// Section Two
+@import "../../variables.scss";
+@import "../../breakpoints.scss";
+
+.about {
+  #section-two {
+    background: $grey;
+    padding: 120px 0px 120px 0px;
+    @include bp-tablet-sm {
+      padding: 60px 0px 120px 0px;
+    }
+    .row {
+      align-items: center;
+      .call-out {
+        @include bp-tablet-sm {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}

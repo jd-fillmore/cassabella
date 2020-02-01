@@ -10,7 +10,8 @@
   }
   h1,
   h2,
-  p {
+  p,
+  a {
     color: $white;
   }
   h1 {
@@ -26,10 +27,21 @@
   h2 {
     font-weight: bold;
     font-size: 60px;
-    line-height: 1.2;
+    line-height: 1.4;
     margin-bottom: 15px;
     @include bp-tablet-sm {
       font-size: 32px;
+    }
+  }
+  button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  a {
+    &:focus,
+    &:hover {
+      color: $primary;
+      text-decoration: none;
     }
   }
 }

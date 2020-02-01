@@ -3,8 +3,6 @@ import React, { Component } from "react"
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../components/typography.scss"
 import "../components/general.scss"
-import AOS from "aos"
-import "../../node_modules/aos/dist/aos.css"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,11 +15,6 @@ import CTA from "../components/footer/cta"
 import Footer from "../components/footer/footer"
 
 class IndexPage extends Component {
-  componentDidMount() {
-    AOS.init({
-      duration: 1000,
-    })
-  }
   render() {
     return (
       <div>
@@ -37,6 +30,7 @@ class IndexPage extends Component {
           <About
             title="About Cass-A-Bella Construction"
             subtitle="For all your home renovation, addition or building needs, turn to the professionals at Cass-A-Bella Construction."
+            alt="White House"
           />
           <CTA />
           <Footer />

@@ -1,0 +1,10 @@
+// Inner
+@import "../breakpoints.scss";
+@import "../variables.scss";
+
+#main-content {
+  padding: 120px 0px 120px 0px;
+  @include bp-tablet-sm {
+    padding: 60px 0px 60px 0px;
+  }
+}

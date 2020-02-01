@@ -12,9 +12,7 @@ const CTA = () => {
         <Container>
           <Row className="text-center">
             <Col lg="12">
-              <h2 data-aos="fade-down">
-                Have a home renovation project in mind?
-              </h2>
+              <h2 data-aos="fade-down">Have a project in mind?</h2>
               <div data-aos="fade-up">
                 <Link to="/contact">
                   <Button>Get A Quote</Button>

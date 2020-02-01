@@ -48,11 +48,26 @@ class MainNav extends React.Component {
       linkSevenText: "About",
       linkEight: "/contact",
       linkEightText: "Contact",
-      projectsLinkText: "Projects",
-      projectOneText: "Woodville Ave, Toronto",
-      projectOneLink: "/woodville-ave-toronto",
-      projectTwoText: "Project 2",
-      projectThreeText: "Project 3",
+      projectsText: "Projects",
+      projectsLink: "/projects",
+      projectOneText: "Nesbit Drive",
+      projectOneLink: "/nesbit-drive",
+      projectTwoText: "Tangemere Road",
+      projectTwoLink: "/tangemere-road",
+      projectThreeText: "Anthony Road",
+      projectThreeLink: "/anthony-road",
+      projectFourText: "Lord Seaton Road",
+      projectFourLink: "/lord-seaton-road",
+      projectFiveText: "Burwood Road",
+      projectFiveLink: "/burwood-road",
+      projectSixText: "Gwendolen Cres",
+      projectSixLink: "/gwendolen-cres",
+      projectSevenText: "Mckee Ave",
+      projectSevenLink: "/mckee-ave",
+      projectEightText: "Woodville Ave, Toronto",
+      projectEightLink: "/woodville-ave-toronto",
+      projectNineText: "Featherstone Ave",
+      projectNineLink: "/featherstone-ave",
     }
     return (
       <div className="container-fluid">
@@ -117,9 +132,16 @@ class MainNav extends React.Component {
               </UncontrolledDropdown>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  {navLinks.projectsLinkText}
+                  {navLinks.projectsText}
                 </DropdownToggle>
                 <DropdownMenu right>
+                  <DropdownItem>
+                    <NavItem>
+                      <NavLink href={navLinks.projectsLink}>
+                        {navLinks.projectsText}
+                      </NavLink>
+                    </NavItem>
+                  </DropdownItem>
                   <DropdownItem>
                     <NavItem>
                       <NavLink href={navLinks.projectOneLink}>
@@ -129,15 +151,57 @@ class MainNav extends React.Component {
                   </DropdownItem>
                   <DropdownItem>
                     <NavItem>
-                      <NavLink href={navLinks.linkThree}>
+                      <NavLink href={navLinks.projectTwoLink}>
                         {navLinks.projectTwoText}
                       </NavLink>
                     </NavItem>
                   </DropdownItem>
                   <DropdownItem>
                     <NavItem>
-                      <NavLink href={navLinks.linkFour}>
+                      <NavLink href={navLinks.projectThreeLink}>
                         {navLinks.projectThreeText}
+                      </NavLink>
+                    </NavItem>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavItem>
+                      <NavLink href={navLinks.projectFourLink}>
+                        {navLinks.projectFourText}
+                      </NavLink>
+                    </NavItem>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavItem>
+                      <NavLink href={navLinks.projectFiveLink}>
+                        {navLinks.projectFiveText}
+                      </NavLink>
+                    </NavItem>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavItem>
+                      <NavLink href={navLinks.projectSixLink}>
+                        {navLinks.projectSixText}
+                      </NavLink>
+                    </NavItem>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavItem>
+                      <NavLink href={navLinks.projectSevenLink}>
+                        {navLinks.projectSevenText}
+                      </NavLink>
+                    </NavItem>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavItem>
+                      <NavLink href={navLinks.projectEightLink}>
+                        {navLinks.projectEightText}
+                      </NavLink>
+                    </NavItem>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavItem>
+                      <NavLink href={navLinks.projectNineLink}>
+                        {navLinks.projectNineText}
                       </NavLink>
                     </NavItem>
                   </DropdownItem>
