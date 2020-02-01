@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Nav from "../components/nav/nav"
 import InnerHero from "../components/inner/hero/innerHero"
+import servicesLogos from "../images/services-logos.jpg"
 import Card from "../components/card/card"
 import imageOne from "../images/custom-home-additions-toronto.jpg"
 import imageTwo from "../images/custom-second-floor-additions-misssauga.jpg"
@@ -24,6 +25,13 @@ const Services = () => (
     <InnerHero title="Services" />
     <section id="main-content">
       <Container>
+        <Row className="logos">
+          <Col lg="3">&nbsp;</Col>
+          <Col lg="6">
+            <img src={servicesLogos} alt="City of Toronto" />
+          </Col>
+          <Col lg="3">&nbsp;</Col>
+        </Row>
         <Row>
           <Col lg="4" className="d-flex">
             <div data-aos="fade-in" data-aos-delay="500">

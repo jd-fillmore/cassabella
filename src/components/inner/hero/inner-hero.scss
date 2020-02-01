@@ -4,7 +4,6 @@
 
 #inner-hero {
   background: url("../../../images/inner-hero-bg.jpg") center center no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   padding: 180px 0px 150px 0px;
   margin-top: -105px;
@@ -16,7 +15,15 @@
     color: $white;
     font-weight: 800;
   }
-  p {
+  p,
+  a {
     color: rgba($white, 0.5);
+  }
+  a {
+    &:focus,
+    &:hover {
+      color: $primary;
+      text-decoration: none;
+    }
   }
 }

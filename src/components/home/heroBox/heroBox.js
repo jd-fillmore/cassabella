@@ -22,6 +22,7 @@ const HeroBox = props => {
             <Button aria-label="button">{props.linkText}</Button>
           </div>
         </Link>
+        <a href="tel:(416) 241 - 3471">{props.phone}</a>
       </section>
     </div>
   )

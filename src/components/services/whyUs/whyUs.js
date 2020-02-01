@@ -4,10 +4,10 @@ import "../whyUs/why-us.scss"
 
 const WhyUs = () => {
   const whyUsItems = [
-    "Years of experience",
-    "On-time completion",
-    "Cost-effective services",
-    "Customer focused",
+    "Guaranteed completion dates",
+    "Guaranteed cost-effective services",
+    "Guaranteed certified mechanical trades",
+    "Guaranteed custom design standards",
   ]
   return (
     <div>

@@ -66,6 +66,8 @@ class MainNav extends React.Component {
       projectSevenLink: "/mckee-ave",
       projectEightText: "Woodville Ave, Toronto",
       projectEightLink: "/woodville-ave-toronto",
+      projectNineText: "Featherstone Ave",
+      projectNineLink: "/featherstone-ave",
     }
     return (
       <div className="container-fluid">
@@ -193,6 +195,13 @@ class MainNav extends React.Component {
                     <NavItem>
                       <NavLink href={navLinks.projectEightLink}>
                         {navLinks.projectEightText}
+                      </NavLink>
+                    </NavItem>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavItem>
+                      <NavLink href={navLinks.projectNineLink}>
+                        {navLinks.projectNineText}
                       </NavLink>
                     </NavItem>
                   </DropdownItem>

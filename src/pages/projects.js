@@ -95,6 +95,14 @@ const Projects = () => (
               title="Woodville Ave Toronto"
             />
           </Col>
+          <Col lg="4">
+            <Card
+              cardLink="/featherstone-ave"
+              image={imageEight}
+              alt="Featherstone Ave"
+              title="Featherstone Ave"
+            />
+          </Col>
         </Row>
       </Container>
     </section>

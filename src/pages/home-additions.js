@@ -18,8 +18,8 @@ const HomeAdditions = () => (
     <InnerHero title="Home Additions" />
     <section id="main-content" className="services">
       <SectionOne
-        heading="With years of experience, our skilled builders provide excellent advice and project management along with superior craftsmanship."
-        text="We are committed to delivering all projects on time and within budget."
+        heading="With years of experience, our skilled builders provide excellent advice and understanding family needs and budgetary requirements along with superior craftsmanship."
+        text="With over 900 thousand ft of custom addition building our unprecedented experience in addition building allows cass-a- bella to be the only design build company in GTA To offer guaranteed completion date and fixed contract price."
         callOutText="Skilled Builders"
         callOutSubText="We provide excellent advice and project management"
         callOutTopImage={callOutTopImage}
@@ -27,7 +27,7 @@ const HomeAdditions = () => (
       />
       <SectionTwo
         heading="Looking for expert builders? Cass-A-Bella Construction has the required knowledge and experience to handle your home addition project, from design to completion!"
-        text="To guarantee superior quality results, our team works swiftly and efficiently, ensuring minimal disruption. No job is too big or too small! Call today."
+        text="No job too big. We can design build any size addition."
         callOutText="Superior Quality Home Additions"
         callOutSubText="Minimal disruption guaranteed"
         callOutBtmImage={callOutBtmImage}

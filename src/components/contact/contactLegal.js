@@ -3,8 +3,6 @@ import React from "react"
 const ContactLegal = () => {
   const benefitsList = [
     "Only the largest addition builder in the GTA can make you this offer",
-    "NO HST tax for projects under $100,000.00",
-    "10% discount on any written quote of our competitors for projects over $100,000.00",
   ]
   return (
     <div>
