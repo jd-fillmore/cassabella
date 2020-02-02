@@ -15,6 +15,7 @@ import imageFive from "../images/projects/burwood.jpg"
 import imageSix from "../images/projects/gwendolen.jpg"
 import imageSeven from "../images/projects/mckee.jpg"
 import imageEight from "../images/projects/woodville.jpg"
+import imageNine from "../images/projects/featherwood.jpg"
 
 const Projects = () => (
   <Layout>
@@ -98,7 +99,7 @@ const Projects = () => (
           <Col lg="4">
             <Card
               cardLink="/featherstone-ave"
-              image={imageEight}
+              image={imageNine}
               alt="Featherstone Ave"
               title="Featherstone Ave"
             />
