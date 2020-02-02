@@ -6,6 +6,8 @@ import SEO from "../components/seo"
 import Nav from "../components/nav/nav"
 import InnerHero from "../components/inner/hero/innerHero"
 import Card from "../components/card/card"
+import CTA from "../components/footer/cta"
+import Footer from "../components/footer/footer"
 
 import imageOne from "../images/projects/nesbit.jpg"
 import imageTwo from "../images/projects/tangemere.jpg"
@@ -19,6 +21,7 @@ import imageNine from "../images/projects/featherwood.jpg"
 
 const Projects = () => (
   <Layout>
+    ;
     <SEO title="Projects" />
     <Nav />
     <InnerHero title="Projects" />
@@ -107,6 +110,8 @@ const Projects = () => (
         </Row>
       </Container>
     </section>
+    <CTA />
+    <Footer />
   </Layout>
 )
 
