@@ -1,9 +1,6 @@
 import React from "react"
 
 const ContactLegal = () => {
-  const benefitsList = [
-    "Only the largest addition builder in the GTA can make you this offer",
-  ]
   return (
     <div>
       <p>
@@ -15,11 +12,6 @@ const ContactLegal = () => {
         collected by this form, please consult our{" "}
         <a href="/privacy">privacy policy</a>
       </p>
-      <ul>
-        {benefitsList.map(list => (
-          <li>{list}</li>
-        ))}
-      </ul>
     </div>
   )
 }

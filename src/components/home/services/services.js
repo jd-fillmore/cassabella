@@ -48,10 +48,10 @@ const Services = props => {
             <Col lg="4" className="d-flex">
               <div className="d-flex" data-aos="fade-in" data-aos-delay="900">
                 <Card
-                  cardLink="/rear-home-additions"
+                  cardLink="/custom-home-building"
                   image={imageThree}
-                  alt="Custom Rear Home Additions Etobicoke"
-                  title="Rear Home Additions"
+                  alt="Custom Homes Etobicoke"
+                  title="Custom Homes"
                   text="We design custom upholstered furniture and bring your outdated pieces back to life."
                 />
               </div>

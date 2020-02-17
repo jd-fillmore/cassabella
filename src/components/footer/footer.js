@@ -1,7 +1,12 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons"
+import {
+  faFacebook,
+  faInstagram,
+  faTwitter,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons"
 
 import "../footer/footer.scss"
 
@@ -28,6 +33,22 @@ const Footer = () => {
                   aria-label="Instagram"
                 >
                   <FontAwesomeIcon icon={faInstagram} />
+                </a>
+                <a
+                  href="https://twitter.com/FernandoD2018"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Twitter"
+                >
+                  <FontAwesomeIcon icon={faTwitter} />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/cass-a-bella-construction/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <FontAwesomeIcon icon={faLinkedin} />
                 </a>
                 <p>cass-a-bella-construction.com</p>
                 <a href="tel:(416) 241 - 3471">(416) 241 - 3471</a>
