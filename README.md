@@ -2,6 +2,6 @@
 
 Built with React, Gatsby, JavaScript, HTML5, CSS3, Bootstrap 4, NPM.
 
-Showcase: (coming soon)
+Showcase: https://cassabella.netlify.com
 
 Direct link: (coming soon)
