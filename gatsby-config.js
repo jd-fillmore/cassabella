@@ -2,11 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `Cass-A-Bella Construction`,
     description: `We're the best custom home renovation company in Mississauga, Etobicoke and Toronto. If you'd like a free quote, click here now!`,
+    siteUrl: `https://cassabellaconstruction.com/`,
     author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
