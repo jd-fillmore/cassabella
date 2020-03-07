@@ -9,21 +9,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-sitemap`,
-    resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: "UA-115010456-3",
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-        // Avoids sending pageview hits from custom paths
-        exclude: ["/preview/**", "/do-not-track/me/too/"],
-        // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
-      },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -31,6 +17,21 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    // resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     // The property ID; the tracking code won't be generated without it
+    //     trackingId: "UA-115010456-3",
+    //     // Defines where to place the tracking script - `true` in the head and `false` in the body
+    //     head: false,
+    //     // Setting this parameter is optional
+    //     anonymize: true,
+    //     // Setting this parameter is also optional
+    //     respectDNT: true,
+    //     // Avoids sending pageview hits from custom paths
+    //     exclude: ["/preview/**", "/do-not-track/me/too/"],
+    //     // Delays sending pageview hits on route update (in milliseconds)
+    //     pageTransitionDelay: 0,
+    //   },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {

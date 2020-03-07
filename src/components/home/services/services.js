@@ -52,7 +52,7 @@ const Services = props => {
                   image={imageThree}
                   alt="Custom Homes Etobicoke"
                   title="Custom Homes"
-                  text="We design custom upholstered furniture and bring your outdated pieces back to life."
+                  text="We design and build, custom homes for your family needs on budget (guaranteed)."
                 />
               </div>
             </Col>
