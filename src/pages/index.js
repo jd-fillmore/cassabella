@@ -19,12 +19,12 @@ class IndexPage extends Component {
     return (
       <div>
         <Layout>
-          <SEO title="Custom Home Renovation Company Etobicoke, Toronto, Mississauga" />
+          <SEO title="Best Custom Home Renovation Company in East York" />
           <Nav />
           <Hero />
           <Services
             title="Our Range of Custom Home Renovation Services"
-            subtitle="Located in the heart of Toronto, we deliver top-value and peace of mind. Serving Etobicoke, Mississauga & Toronto."
+            subtitle="Located in the heart of East York, we deliver top-value and peace of mind. Serving East York and surrounding areas."
           />
           <FeaturedHome />
           <About

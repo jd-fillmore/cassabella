@@ -11,7 +11,7 @@ const Hero = () => (
         <Row>
           <Col lg="10">
             <HeroBox
-              title="Custom Home Renovation Major Addition Company in Etobicoke, Mississauga &amp; Toronto"
+              title="Best Custom Home Renovation Company in East York"
               subtitle="Design, Build, Experience The Difference."
               text="Est. 2003 with over 900 thousand ft. of major addition and custom home build /
               Experience"

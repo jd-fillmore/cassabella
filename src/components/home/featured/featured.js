@@ -19,7 +19,7 @@ const FeaturedHome = () => {
               <div data-aos="fade-in">
                 <img
                   src={image}
-                  alt="Custom home renovation in etobicoke, mississauga and toronto"
+                  alt="best custom home renovation company in east york"
                 />
               </div>
             </Col>
@@ -32,7 +32,7 @@ const FeaturedHome = () => {
             </Col>
             <Col lg="7">
               <FeaturedOther
-                title="Other projects in Etobicoke, Mississauga &amp; Toronto"
+                title="Other projects in East York and surrounding areas."
                 buttonText="View All"
               />
             </Col>
