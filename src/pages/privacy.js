@@ -16,7 +16,10 @@ const GDPR = [
 
 const Privacy = () => (
   <Layout>
-    <SEO title="Privacy" />
+    <SEO
+      title="Privacy"
+      description="At Cass-A-Bella Construction, we take your privacy very seriously. Please read our website's privacy policy today."
+    />
     <Nav />
     <InnerHero title="Privacy Policy" />
     <section id="main-content" className="privacy">

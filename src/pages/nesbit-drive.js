@@ -71,7 +71,10 @@ const projectItems = [
 
 const NesbitDrive = () => (
   <Layout>
-    <SEO title="Nesbit Drive" />
+    <SEO
+      title="Nesbit Drive"
+      description="Check out the project Nesbit Drive from Cass-A-Bella Construction. Click here to view the project."
+    />
     <Nav />
     <InnerHero title="Nesbit Drive" />
     <section id="main-content">

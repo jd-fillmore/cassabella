@@ -15,7 +15,10 @@ import ContactLegal from "../components/contact/contactLegal"
 
 const Contact = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO
+      title="Contact"
+      description="Have questions about Cass-A-Bella Construction? Please don't hesitate. Contact us for your questions and inquiries today."
+    />
     <Nav />
     <InnerHero title="Contact" />
     <section id="main-content" className="contact">

@@ -73,7 +73,10 @@ const projectItems = [
 
 const FeatherwoodAve = () => (
   <Layout>
-    <SEO title="Featherstone Ave" />
+    <SEO
+      title="Featherstone Ave"
+      description="Check out the project Featherstone Ave from Cass-A-Bella Construction. Click here to view the project."
+    />
     <Nav />
     <InnerHero title="Featherstone Ave" />
     <section id="main-content">

@@ -12,7 +12,10 @@ import Footer from "../components/footer/footer"
 
 const About = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO
+      title="About"
+      description="Cass-A-Bella Construction is made up of professional people that have the ability to deliver."
+    />
     <Nav />
     <InnerHero title="About" />
     <section id="main-content" className="about">

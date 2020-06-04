@@ -13,7 +13,10 @@ import Footer from "../components/footer/footer"
 
 const HomeRenovation = () => (
   <Layout>
-    <SEO title="Home Renovation" />
+    <SEO
+      title="Home Renovation"
+      description="Interested in a home renovation project? Look no further. Cass-A-Bella can provide a free home renovation quote for you today."
+    />
     <Nav />
     <InnerHero title="Home Renovation" />
     <section id="main-content" className="services">
