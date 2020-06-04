@@ -89,7 +89,10 @@ const projectItems = [
 
 const TangemereRoad = () => (
   <Layout>
-    <SEO title="Tangemere Road" />
+    <SEO
+      title="Tangemere Road"
+      description="Check out the project Tangemere Road from Cass-A-Bella Construction. Click here to view the project."
+    />
     <Nav />
     <InnerHero title="Tangemere Road" />
     <section id="main-content">

@@ -20,7 +20,10 @@ import Footer from "../components/footer/footer"
 
 const Services = () => (
   <Layout>
-    <SEO title="Services" />
+    <SEO
+      title="Services"
+      description="At Cass-A-Bella Construction, we provide renovation, addition and home building services. Click here to learn more."
+    />
     <Nav />
     <InnerHero title="Services" />
     <section id="main-content">

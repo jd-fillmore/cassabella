@@ -94,7 +94,10 @@ const projectItems = [
 
 const LordSeatonRoad = () => (
   <Layout>
-    <SEO title="Lord Seaton Road" />
+    <SEO
+      title="Lord Seaton Road"
+      description="Check out the project Lord Seaton Road from Cass-A-Bella Construction. Click here to view the project."
+    />
     <Nav />
     <InnerHero title="Lord Seaton Road" />
     <section id="main-content">

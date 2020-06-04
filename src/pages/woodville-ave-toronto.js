@@ -57,7 +57,10 @@ const projectItems = [
 
 const WoodvilleAveToronto = () => (
   <Layout>
-    <SEO title="Woodville Ave Toronto" />
+    <SEO
+      title="Woodville Ave Toronto"
+      description="Check out the project Woodville Ave from Cass-A-Bella Construction. Click here to view the project."
+    />
     <Nav />
     <InnerHero title="Woodville Ave, Toronto" />
     <section id="main-content">

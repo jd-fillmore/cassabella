@@ -13,7 +13,10 @@ import Footer from "../components/footer/footer"
 
 const RearHomeAdditions = () => (
   <Layout>
-    <SEO title="Rear Home Additions" />
+    <SEO
+      title="Rear Home Additions"
+      description="Looking to get a rear home addition project done? View our portfolio today."
+    />
     <Nav />
     <InnerHero title="Rear Home Additions" />
     <section id="main-content" className="services">

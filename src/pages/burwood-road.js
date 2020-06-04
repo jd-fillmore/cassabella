@@ -72,7 +72,10 @@ const projectItems = [
 
 const BurwoodRoad = () => (
   <Layout>
-    <SEO title="Burwood Road" />
+    <SEO
+      title="Burwood Road"
+      description="Check out the project Burwood Road from Cass-A-Bella Construction. Click here to view the project."
+    />
     <Nav />
     <InnerHero title="Burwood Road" />
     <section id="main-content">

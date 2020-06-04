@@ -13,7 +13,10 @@ import Footer from "../components/footer/footer"
 
 const CustomHomeBuilding = () => (
   <Layout>
-    <SEO title="Custom Home Building" />
+    <SEO
+      title="Custom Home Building"
+      description="Interested in a custom home building project? Look no further. Cass-A-Bella can provide a free custom home building quote for you today."
+    />
     <Nav />
     <InnerHero title="Custom Home Building" />
     <section id="main-content" className="services">

@@ -88,7 +88,10 @@ const projectItems = [
 
 const GwendolenCres = () => (
   <Layout>
-    <SEO title="Gwendolen Cres" />
+    <SEO
+      title="Gwendolen Cres"
+      description="Check out the project Gwendolen Crescent from Cass-A-Bella Construction. Click here to view the project."
+    />
     <Nav />
     <InnerHero title="Gwendolen Cres" />
     <section id="main-content">

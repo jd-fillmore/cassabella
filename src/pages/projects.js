@@ -22,7 +22,10 @@ import imageNine from "../images/projects/featherwood.jpg"
 const Projects = () => (
   <Layout>
     ;
-    <SEO title="Projects" />
+    <SEO
+      title="Projects"
+      description="Looking to get a home renovation, custom addition or second floor addition project done? View our portfolio today."
+    />
     <Nav />
     <InnerHero title="Projects" />
     <section id="main-content" className="projects">

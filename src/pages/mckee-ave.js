@@ -80,7 +80,10 @@ const projectItems = [
 
 const MckeeAve = () => (
   <Layout>
-    <SEO title="Mckee Ave" />
+    <SEO
+      title="Mckee Ave"
+      description="Check out the project McKee Avenue from Cass-A-Bella Construction. Click here to view the project."
+    />
     <Nav />
     <InnerHero title="Mckee Ave" />
     <section id="main-content">

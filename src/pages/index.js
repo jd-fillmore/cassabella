@@ -19,7 +19,10 @@ class IndexPage extends Component {
     return (
       <div>
         <Layout>
-          <SEO title="Best Custom Home Renovation Company in East York" />
+          <SEO
+            title="Best Custom Home Renovation Company in East York"
+            description="Best custom home renovation company in East York. Check out our extensive portfolio in the GTA. If you'd like a free quote, click here now!"
+          />
           <Nav />
           <Hero />
           <Services
