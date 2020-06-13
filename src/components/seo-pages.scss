@@ -38,6 +38,12 @@
       padding-bottom: 40px;
     }
   }
+  .meet-team {
+    padding-top: 80px;
+    @include bp-tablet-sm {
+      padding-top: 40px;
+    }
+  }
   .grey-bg {
     background: $grey;
     padding-top: 80px;
@@ -67,6 +73,10 @@
     }
   }
   .things-to-do {
+    padding-bottom: 40px;
+    @include bp-tablet-sm {
+      padding-bottom: 0px;
+    }
     iframe {
       margin-bottom: 40px;
     }

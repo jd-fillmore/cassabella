@@ -13,6 +13,8 @@ import InnerHero from "../components/inner/hero/innerHero"
 import mainImage from "../images/second-floor-additions-east-york-mississauga-toronto.jpg"
 import Button from "../components/button/button"
 import ContactForm from "../components/contact/contactForm"
+import SectionTwo from "../components/about/sectionTwo/sectionTwo"
+import SectionThree from "../components/about/sectionThree/sectionThree"
 
 const projectItems = [
   "New garage addition",
@@ -119,6 +121,10 @@ const SecondFloorAdditionsEastYork = () => (
           </Row>
         </Container>
       </div>
+      {/* Meet The Team */}
+      <div className="meet-team">
+        <SectionTwo />
+      </div>
       {/* Content One*/}
       <Container className="pd-80">
         <Row>
@@ -208,8 +214,12 @@ const SecondFloorAdditionsEastYork = () => (
           </Row>
         </Container>
       </div>
+      {/* Guarentee*/}
+      <div className="meet-team">
+        <SectionThree />
+      </div>
       {/* Things To Do */}
-      <Container className="pd-80 things-to-do">
+      <Container className="things-to-do">
         <Row>
           <Col lg="12">
             <h2>Things To Do In East York</h2>
