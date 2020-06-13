@@ -83,11 +83,17 @@ const SecondFloorAdditionsEastYork = () => (
               floor addition.
             </p>
             <p>
-              For professional second floor additions in East York, contact
-              Cass-A-Bella Construction. With over 15 years in building and
-              construction, we have the experience and shall transform your
-              property into your dream home. Why choose us for second floor
-              additions in Mississauga?
+              For professional{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Modular_addition"
+                target="_blank"
+              >
+                second floor additions
+              </a>{" "}
+              in East York, contact Cass-A-Bella Construction. With over 15
+              years in building and construction, we have the experience and
+              shall transform your property into your dream home. Why choose us
+              for second floor additions in Mississauga?
             </p>
           </Col>
           <Col lg="6">
