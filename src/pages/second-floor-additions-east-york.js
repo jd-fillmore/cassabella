@@ -247,7 +247,20 @@ const SecondFloorAdditionsEastYork = () => (
         </Row>
       </Container>
     </section>
-    <CTA />
+    {/* CTA */}
+    <section id="cta">
+      <Container>
+        <Row className="text-center">
+          <Col lg="12">
+            <h2>
+              Need a second floor addition done in the East York, Mississauga or
+              Toronto area?
+            </h2>
+            <ContactForm />
+          </Col>
+        </Row>
+      </Container>
+    </section>
     <Footer />
   </Layout>
 )
