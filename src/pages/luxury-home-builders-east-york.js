@@ -88,6 +88,7 @@ const LuxuryHomeBuildersEastYork = () => (
       </div>
       {/* Things To Do */}
       <ThingsToDo
+        mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184985.27537429583!2d-79.6344302086207!3d43.577489663386544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b469fe76b05b7%3A0x3146cbed75966db!2sMississauga%2C%20ON!5e0!3m2!1sen!2sca!4v1592154200327!5m2!1sen!2sca"
         title="Things To Do In Mississauga"
         text="Mississauga is one of the most attractive cities in Canada.  Are you looking for things to do in Mississauga? Here are some top sights in Mississauga. Kariya Park Mississauga
         Featuring a serene Japanese-inspired garden, Kariya Park is a top attraction site in Mississauga. The park is open to the public and offers a great recreational site for the whole family. Explore Port Credit the Historic Village 

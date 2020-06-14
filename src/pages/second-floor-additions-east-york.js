@@ -80,6 +80,7 @@ const SecondFloorAdditionsEastYork = () => (
       </div>
       {/* Things To Do */}
       <ThingsToDo
+        mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92302.9308732462!2d-79.40297042582884!3d43.70085166738155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cc5f55fc8bd1%3A0x8f51a4fd0f97e031!2sEast%20York%2C%20Toronto%2C%20ON!5e0!3m2!1sen!2sca!4v1592154018364!5m2!1sen!2sca"
         title="Things To Do In East York"
         text="East York is a former suburb of Toronto and largely a residential area. East York offers exciting sightseeing sceneries, and enjoys a great landscape, perfect for biking.If you love nature, Taylor Creek Park is the natural gem. With biking and hiking trails, you can look up to a fun-filled day within the Park. For lovers of winter activities, Dieppe Park features an ice rink and it is one of the extremely popular parks during winter. The park is famous for winter skating activities within East York.Stan Wadlow Clubhouse is perfect for the whole family. There is a huge playground suitable for kids fun activities and is a pet-friendly park in East York. Ideally, there are dozens of amazing sceneries around East York. Thus, if you are looking for the best things to do in East York, get ready for a fun-filled experience."
       />
