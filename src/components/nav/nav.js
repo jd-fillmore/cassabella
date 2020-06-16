@@ -38,9 +38,11 @@ class MainNav extends React.Component {
       linkTwoText: "Home Renovation",
       linkThree: "/home-additions",
       linkThreeText: "Home Additions",
-      linkFour: "/custom-home-building",
+      linkFour: "/custom-home-builder-east-york",
       linkFourText: "Custom Home Building",
-      linkFive: "/second-floor-additions",
+      linkFourB: "/luxury-home-builders-east-york",
+      linkFourBText: "Luxury Home Building",
+      linkFive: "/second-floor-additions-east-york",
       linkFiveText: "Second Floor Additions",
       linkSix: "/rear-home-additions",
       linkSixText: "Rear Home Additions",
@@ -111,6 +113,13 @@ class MainNav extends React.Component {
                     <NavItem>
                       <NavLink href={navLinks.linkFour}>
                         {navLinks.linkFourText}
+                      </NavLink>
+                    </NavItem>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavItem>
+                      <NavLink href={navLinks.linkFourB}>
+                        {navLinks.linkFourBText}
                       </NavLink>
                     </NavItem>
                   </DropdownItem>
