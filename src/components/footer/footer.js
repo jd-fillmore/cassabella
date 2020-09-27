@@ -57,14 +57,14 @@ const Footer = () => {
             <Col lg="6">
               <div className="flex-two">
                 <p>
-                  Powered by
                   <a
                     rel="noopener noreferrer"
                     target="_blank"
                     href="https://infused.agency"
                   >
-                    &nbsp;Infused Agency
+                    Niagara web design
                   </a>
+                  by Infused Agency
                 </p>
               </div>
             </Col>
