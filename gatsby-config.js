@@ -33,17 +33,13 @@ module.exports = {
     //     pageTransitionDelay: 0,
     //   },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Libre Baskerville`,
-          },
-          {
-            family: `Montserrat`,
-            variants: [`300`, `700`],
-          },
+          `libre baskerville`,
+          `montserrat\:300,500,700`, // you can also specify font weights and styles
         ],
+        display: "swap",
       },
     },
     `gatsby-transformer-sharp`,
