@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { Container, Row, Col } from "reactstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -57,14 +58,8 @@ const Footer = () => {
             <Col lg="6">
               <div className="flex-two">
                 <p>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://infused.agency"
-                  >
-                    Niagara web design
-                  </a>
-                  by Infused Agency
+                  <Link to="/infused">Web design &amp; SEO</Link>
+                  {""} by Infused Agency
                 </p>
               </div>
             </Col>
