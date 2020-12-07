@@ -10,74 +10,78 @@ import Footer from "../components/footer/footer"
 
 const citiesNiagara = [
   {
-    name: "Wainfleet",
+    name: "Niagara Web Design & SEO",
+    link: "https://infused.agency/",
+  },
+  {
+    name: "Wainfleet Web Design",
     link: "https://infused.agency/wainfleet-web-design",
   },
   {
-    name: "Port Colborne",
+    name: "Port Colborne Web Design & SEO",
     link: "https://infused.agency/port-colborne-web-design",
   },
   {
-    name: "Beamsville-Lincoln",
+    name: "Beamsville-Lincoln Web Design & SEO",
     link: "https://infused.agency/beamsville-lincoln-web-design",
   },
   {
-    name: "Grimsby",
+    name: "Grimsby Web Design & SEO",
     link: "https://infused.agency/grimsby-web-design",
   },
   {
-    name: "Fort Erie",
+    name: "Fort Erie Web Design & SEO",
     link: "https://infused.agency/fort-erie-web-design",
   },
   {
-    name: "Thorold",
+    name: "Thorold Web Design & SEO",
     link: "https://infused.agency/thorold-web-design",
   },
   {
-    name: "Smithville",
+    name: "Smithville Web Design & SEO",
     link: "https://infused.agency/smithville-web-design",
   },
   {
-    name: "Pelham",
+    name: "Pelham Web Design & SEO",
     link: "https://infused.agency/pelham-web-design",
   },
   {
-    name: "Niagara-on-the-Lake",
+    name: "Niagara-on-the-Lake Web Design & SEO",
     link: "https://infused.agency/niagara-on-the-lake-web-design",
   },
 ]
 
 const citiesHamilton = [
   {
-    name: "Hamilton",
+    name: "Hamilton Web Design & SEO",
     link: "https://infused.agency/hamilton-web-design",
   },
   {
-    name: "Waterdown",
+    name: "Waterdown Web Design & SEO",
     link: "https://infused.agency/waterdown-web-design",
   },
   {
-    name: "Dundas",
+    name: "Dundas Web Design & SEO",
     link: "https://infused.agency/dundas-web-design",
   },
   {
-    name: "Ancaster",
+    name: "Ancaster Web Design & SEO",
     link: "https://infused.agency/ancaster-web-design",
   },
   {
-    name: "Stoney Creek",
+    name: "Stoney Creek Web Design & SEO",
     link: "https://infused.agency/stoney-creek-web-design",
   },
   {
-    name: "Burlington",
+    name: "Burlington Web Design & SEO",
     link: "https://infused.agency/burlington-web-design",
   },
   {
-    name: "Caledonia",
+    name: "Caledonia Web Design & SEO",
     link: "https://infused.agency/caledonia-web-design",
   },
   {
-    name: "Binbrook",
+    name: "Binbrook Web Design & SEO",
     link: "https://infused.agency/binbrook-web-design",
   },
 ]
@@ -99,7 +103,7 @@ const Infused = () => (
           </Col>
         </Row>
         <Row>
-          <Col lg="3">
+          <Col lg="6">
             <h5>Niagara</h5>
             <ul>
               {citiesNiagara.map(city => (
@@ -111,7 +115,7 @@ const Infused = () => (
               ))}
             </ul>
           </Col>
-          <Col lg="3">
+          <Col lg="6">
             <h5>Hamilton</h5>
             <ul>
               {citiesHamilton.map(city => (
