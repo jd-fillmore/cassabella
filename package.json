@@ -37,6 +37,9 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
+  "resolutions": {
+    "sharp": "0.24.0"
+  },
   "keywords": [
     "gatsby"
   ],
