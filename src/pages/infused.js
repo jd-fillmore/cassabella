@@ -8,84 +8,6 @@ import InnerHero from "../components/inner/hero/innerHero"
 import CTA from "../components/footer/cta"
 import Footer from "../components/footer/footer"
 
-const citiesNiagara = [
-  {
-    name: "Niagara Web Design & SEO",
-    link: "https://infused.agency/",
-  },
-  {
-    name: "Wainfleet Web Design",
-    link: "https://infused.agency/wainfleet-web-design",
-  },
-  {
-    name: "Port Colborne Web Design & SEO",
-    link: "https://infused.agency/port-colborne-web-design",
-  },
-  {
-    name: "Beamsville-Lincoln Web Design & SEO",
-    link: "https://infused.agency/beamsville-lincoln-web-design",
-  },
-  {
-    name: "Grimsby Web Design & SEO",
-    link: "https://infused.agency/grimsby-web-design",
-  },
-  {
-    name: "Fort Erie Web Design & SEO",
-    link: "https://infused.agency/fort-erie-web-design",
-  },
-  {
-    name: "Thorold Web Design & SEO",
-    link: "https://infused.agency/thorold-web-design",
-  },
-  {
-    name: "Smithville Web Design & SEO",
-    link: "https://infused.agency/smithville-web-design",
-  },
-  {
-    name: "Pelham Web Design & SEO",
-    link: "https://infused.agency/pelham-web-design",
-  },
-  {
-    name: "Niagara-on-the-Lake Web Design & SEO",
-    link: "https://infused.agency/niagara-on-the-lake-web-design",
-  },
-]
-
-const citiesHamilton = [
-  {
-    name: "Hamilton Web Design & SEO",
-    link: "https://infused.agency/hamilton-web-design",
-  },
-  {
-    name: "Waterdown Web Design & SEO",
-    link: "https://infused.agency/waterdown-web-design",
-  },
-  {
-    name: "Dundas Web Design & SEO",
-    link: "https://infused.agency/dundas-web-design",
-  },
-  {
-    name: "Ancaster Web Design & SEO",
-    link: "https://infused.agency/ancaster-web-design",
-  },
-  {
-    name: "Stoney Creek Web Design & SEO",
-    link: "https://infused.agency/stoney-creek-web-design",
-  },
-  {
-    name: "Burlington Web Design & SEO",
-    link: "https://infused.agency/burlington-web-design",
-  },
-  {
-    name: "Caledonia Web Design & SEO",
-    link: "https://infused.agency/caledonia-web-design",
-  },
-  {
-    name: "Binbrook Web Design & SEO",
-    link: "https://infused.agency/binbrook-web-design",
-  },
-]
-
 const Infused = () => (
   <Layout>
     <SEO
@@ -98,34 +20,31 @@ const Infused = () => (
       <Container>
         <Row>
           <Col lg="12">
-            <p>A Niagara-based web design, development &amp; SEO company.</p>
-            <p>Areas served:</p>
-          </Col>
-        </Row>
-        <Row>
-          <Col lg="6">
-            <h5>Niagara</h5>
-            <ul>
-              {citiesNiagara.map(city => (
-                <li>
-                  <a href={city.link} rel="noreferrer" target="_blank">
-                    {city.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </Col>
-          <Col lg="6">
-            <h5>Hamilton</h5>
-            <ul>
-              {citiesHamilton.map(city => (
-                <li>
-                  <a href={city.link} rel="noreferrer" target="_blank">
-                    {city.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
+            <p>
+              Cass-A-Bella Construction hired Infused Agency to help re-build
+              their old website into a modern, fast new one. The idea here was
+              to properly represent their brand in a new and exciting way, and
+              as well rank in Google for certain keywords.
+            </p>
+            <p>
+              At the time of this post, Infused Agency has helped Cass-A-Bella
+              Construction rank for tens of keywords in and around the East York
+              area. These areas include Google Maps, and Google's Organic Search
+              rankings.
+            </p>
+            <p>
+              If you're a business looking for a new website, or you'd like to
+              rank high in Google for more customers to find you which will lead
+              to more revenue, contact one of the top{" "}
+              <a href="https://infused.agency" target="_blank" rel="noreferrer">
+                Niagara web design
+              </a>{" "}
+              and{" "}
+              <a href="https://infused.agency" target="_blank" rel="noreferrer">
+                Niagara SEO
+              </a>{" "}
+              companies for a free quote today.
+            </p>
           </Col>
         </Row>
       </Container>
