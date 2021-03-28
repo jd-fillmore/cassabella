@@ -58,8 +58,8 @@ const Footer = () => {
             <Col lg="6">
               <div className="flex-two">
                 <p>
-                  <Link to="/infused">Web design &amp; SEO</Link>
-                  {""} by Infused Agency
+                  <a href="https://infused.agency">Niagara web design</a> by
+                  Infused Agency
                 </p>
               </div>
             </Col>
