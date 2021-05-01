@@ -85,3 +85,17 @@
     background: $secondary;
   }
 }
+
+.ig-landing {
+  .meet-the-team {
+    padding: 120px 0px 0px 0px;
+    @include bp-tablet-sm {
+      padding: 40px 0px 0px 0px;
+    }
+    .meet {
+      @include bp-tablet-sm {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

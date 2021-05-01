@@ -22,8 +22,14 @@ const SecondFloorAdditionsEastYork = () => (
     />
     <Nav />
     <InnerHeroIG title="Second Floor Additions in Toronto" />
-    <section id="main-content" class="seo-page">
-      <img src={mainImage} alt="ig landing" />
+    <section id="main-content" class="seo-page ig-landing">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <img className="img-fluid" src={mainImage} alt="ig landing" />
+          </div>
+        </div>
+      </div>
 
       <Testimonial
         text="Really great experience with Cass-a-Bella construction. My second floor addition was done on time and on budget."
@@ -31,13 +37,45 @@ const SecondFloorAdditionsEastYork = () => (
       />
 
       {/* Meet The Team */}
-      <div className="meet-team">
-        <CallOut
-          text="Meet The Team"
-          subText="Charles Sciberras & Fernando Duarte"
-          image={imageTeam}
-          alt="hi"
-        />
+      <div className="meet-the-team">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 meet">
+              <CallOut
+                text="Meet The Team"
+                subText="Charles Sciberras & Fernando Duarte"
+                image={imageTeam}
+                alt="hi"
+              />
+            </div>
+            <div className="col-lg-6">
+              <p>
+                With over 100+ homes completed, Cass-A-Bella Construction
+                continues to provide quality workmanship and craftsmanship in
+                all our designs and builds. We strive for excellence and to
+                provide our customers with the home building industries most
+                comprehensive pricing quotation on all our projects. We are
+                honest and upfront regarding all the costs for supplies and
+                specifications. We keep all of our projects on budget and
+                provide value for all upgrades and modifications made during the
+                construction phase.
+              </p>
+              <p>
+                His long time friend, Charles Sciberras, one of Toronto's most
+                respected design/cost professionals with over twenty years of
+                experience is one of the assets that sets Cass-A-Bella apart
+                from their competition. The combination of Fernando and Charles
+                each skillfully doing their respective part in the company has
+                allowed the company to run smoothly and effectively. Charles
+                Sciberras has designed hundreds of projects, all focused on
+                architectural considerations, return on investment, family
+                functionality and budget requirements. He presently designs the
+                over all look and functionality of each project calculating the
+                cost in relationship to investment.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Guarentee*/}
