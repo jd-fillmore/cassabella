@@ -5,7 +5,7 @@ import "../../../../node_modules/react-image-gallery/styles/css/image-gallery.cs
 import "../featured/featured.scss"
 import "../../imageGallery/image-gallery.scss"
 
-import image from "../../../images/projects/nesbit/1.jpg"
+import image from "../../../images/projects/nesbit/1.webp"
 import FeaturedDescription from "../featured/featuredDescription"
 import FeaturedOther from "../featured/featuredOther"
 

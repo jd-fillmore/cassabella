@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
-import aboutImage from "../../../images/about.jpg"
+import aboutImage from "../../../images/about.webp"
 
 import "../about/about.scss"
 
@@ -20,6 +20,8 @@ const About = props => {
           <Row>
             <Col lg="6">
               <img
+                width="540"
+                height="372"
                 src={aboutImage}
                 alt={props.alt}
                 data-aos="fade-right"
