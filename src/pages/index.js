@@ -13,6 +13,7 @@ import FeaturedHome from "../components/home/featured/featured"
 import About from "../components/home/about/about"
 import CTA from "../components/footer/cta"
 import Footer from "../components/footer/footer"
+import VidaModerna from "../components/home/vidaModerna/vidaModerna"
 
 class IndexPage extends Component {
   render() {
@@ -25,6 +26,11 @@ class IndexPage extends Component {
           />
           <Nav />
           <Hero />
+          <VidaModerna
+            title="Vida Moderna"
+            subTitle="Experience Europe in T.O"
+            desc="Looking for a family, modern, European-designed home? Aquavida &amp; Europa are for you!"
+          />
           <Services
             title="Our Range of Custom Home Renovation Services"
             subtitle="Located in the heart of East York, we deliver top-value and peace of mind. Serving East York and surrounding areas."
