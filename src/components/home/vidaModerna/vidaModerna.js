@@ -24,7 +24,7 @@ const VidaModerna = ({ title, subTitle, desc }) => {
               <CardLink
                 image={Aquavida}
                 imageAlt="Aquavida"
-                link="/vida-moderna#aquavida"
+                link="/vida-moderna"
                 btnText="Aquavida"
               />
             </Col>
@@ -32,7 +32,7 @@ const VidaModerna = ({ title, subTitle, desc }) => {
               <CardLink
                 image={Europa}
                 imageAlt="Europa"
-                link="/vida-moderna#europa"
+                link="/vida-moderna"
                 btnText="Europa"
               />
             </Col>
